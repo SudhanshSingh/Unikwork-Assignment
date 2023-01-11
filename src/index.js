@@ -10,7 +10,7 @@ app.use(multer().any())
 app.use(bodyParser.json()); 
 
 
-mongoose.connect("mongodb+srv://Sudhanshu_09:5JQhJtJ5mUWQIBwo@cluster0.kt4fu.mongodb.net/sudhanshu_09", {
+mongoose.connect("mongodb+srv://Sudhanshu_09:5JQhJtJ5mUWQIBwo@cluster0.kt4fu.mongodb.net/Unikwork", {
     useNewUrlParser: true
 })
 .then( () => console.log("MongoDb is connected"))
